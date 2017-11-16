@@ -1,0 +1,18 @@
+#player{
+	position: absolute;
+	width: 109px;
+	height: 154px;
+	border: 1px solid red;
+	
+}
+#map {
+	position: relative;
+	border: 1px solid black;
+	height: 300px;
+	width: 800px;
+	
+}
+#ball{
+    position: absolute;
+    
+}

@@ -1,0 +1,106 @@
+#footdavid{
+    margin-top: 20px;
+    background-color: #199BC3;
+    border: solid #199BC3 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#footdavid footer{
+    bottom: 0;
+    color: white;
+    display: block;
+    text-align: center;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    background-color: #199BC3;
+}
+#footdavid img{
+    display: block;
+    height: 100px;
+}
+#footdavid p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+#footdavid a{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 16px
+}
+#topheader{
+    height:80px;
+    padding-bottom: 5px;
+    background-color: #22EFE3 !important;
+    padding-top: 0px;
+}
+#logo{
+    width: auto;
+    height: 80px;
+    float: left;
+    display: inline;
+    background-color: #22EFE3;
+    border: solid #22EFE3 10px;
+    margin-top: 0px;
+    padding-top: 0px;  
+ }
+#navdavid{
+    background-color: #22EFE3;
+    padding-top: 15px;
+    text-align: right;
+    list-style: none;
+    padding-bottom: 15px;
+    width: 100%;
+}
+#navdavid li{
+    display:inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#navdavid a{
+    font-size: 18px;
+    background-color: black;
+    padding: 5px;
+    border: 2px solid #B840E0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#navdavid a:hover{
+    color: lightblue;
+}
+#navdavid a:link{
+    color: white;
+}
+#navdavid a:visited{
+    color: white;
+}
+#navdavid a:active{
+    color: white;
+}
+#navdavid a:focus{
+    color: lightcyan;
+}
+#navdavid p{
+    font-size: 18px;
+    padding: 2px;
+    border: 2px solid yellow;
+    background-color: red;
+    color: white;
+}
+#navdavid img{
+    display: block;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#davidt {
+    background-color: black;
+}
+#david1 {
+    background-color: #22EFE3;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 80px;
+}

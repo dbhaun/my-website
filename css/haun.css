@@ -1,0 +1,152 @@
+body{
+    background-color: white;
+}
+p{
+    color: white;
+}
+pre{
+    background-color: blue;
+    color: white;
+}
+h1{
+    color: white;
+    background-color: green;
+}
+h2{
+    color: white;
+    background-color: green;
+}
+h3{
+    color: white;
+    background-color: green;
+}
+h4{
+    color: white;
+    background-color: green;
+}
+h5{
+    color: white;
+    background-color: green;
+}
+h6{
+    color: white;
+    background-color: green;
+}
+header {
+    color: white;
+    background-color: green;
+}
+footer {
+    color: white;
+    background-color: green;
+}
+a{
+    background-color: black;
+}
+a:link{
+    color: lightgreen;
+}
+a:visited{
+    color: gold;
+}
+a:hover{
+    color: lightblue;
+}
+a:active{
+    color: orange;
+}
+a:focus{
+    color: lightcyan;
+}
+a img{
+    display: block;
+}
+/*class section*/
+.textlink{
+    background-color: black;
+    border: solid orange 2px;
+    text-decoration: none;
+}
+/*Picture of self attributes*/
+.self{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    box-shadow: 6px 6px 3px #888888;
+}
+.pagetitle{
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    color: white;
+}
+/*Portfolio*/
+.webproj{
+    background-color: blue;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: white;
+}
+.projects{
+    background-color: magenta;
+    color: white;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom:15px;
+}
+.portlink{
+    font-size: 18px;
+    padding: 2px;
+    background-color: black;
+    text-decoration: none;
+}
+.portlink img{
+    display: block;
+}
+.plw {
+    display: inline;
+    text-align: center;
+    vertical-align: top;
+}
+.plw a{
+    background-color: transparent;
+}
+.label{
+    text-align: center;
+    color: white;
+    background-color: #041AED;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    padding: 15px;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.school{
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: blue;
+}
+.portrow img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.dbes {
+    color: deepskyblue;
+    background-color: white;
+}
+.portheader {
+    display: block;
+    font-size: 26px;
+    line-height: 50px;
+}

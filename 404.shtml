@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>File Not Found</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+body {
+  background-color: #eee;
+}
+
+body, h1, p {
+  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin-left:  auto;
+  margin-right:  auto;
+  margin-top: 177px;
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row:before, .row:after {
+  display: table;
+  content: " ";
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.col-md-push-3 {
+  margin-left: 25%;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+.lead {
+  font-size: 21px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  color: #3282e6;
+  text-decoration: none;
+}
+body{
+    background-color:darkmagenta; 
+}
+a:link{
+    color: lightgreen;
+}
+a:visited{
+    color: gold;
+}
+a:hover{
+    color: lightblue;
+}
+a:active{
+    color: orange;
+}
+/*class section*/
+.textlink{
+    background-color: black;
+    border: solid orange 2px;
+    text-decoration: none;
+}
+/*Picture of self attributes*/
+.david{
+    width: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    box-shadow: 6px 6px 3px #888888;
+}
+.pagetitle{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*Portfolio*/
+.webproj{
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+    border: outset white 5px;
+}
+.projects{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    border: outset yellow 5px;
+}
+.portlink{
+    border: solid green 2px;
+    font-size: 18px;
+    padding: 2px;
+    background-color: black;
+    text-decoration: none;
+}
+.portrow img{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*id section*/
+#weblang{
+    background-color: white;
+    text-align: center;
+    color: darkgreen;
+    border: outset white 5px;
+}
+/*Footer*/
+#footdavid{
+    margin-top: 20px;
+    background-color: orange;
+    border: solid orange 10px;
+    margin-bottom: 10px;
+}
+#footdavid footer{
+    bottom: 0;
+    color: white;
+    text-align: center;
+    height: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#education{
+    align-content: center;
+    background-color:darkblue;
+    color:white;
+    margin-bottom: 30px;
+    border: outset darkblue 10px;
+}
+#education h2{
+    text-align: center;
+}
+/*Heading*/
+#topheader{
+    height:auto;
+    padding-bottom: 5px;
+}
+#logo{
+    width: 150px;
+    height: auto;
+    float: left;
+    display: inline;
+    background-color: gray;
+}
+/*Navigation*/
+#navdavid{
+    background-color: grey;
+    padding-top: 15px;
+    text-align: right;
+    list-style: none;
+    padding-bottom: 15px;
+    width: 100%;
+}
+#navdavid li{
+    display:inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#navdavid a{
+    font-size: 18px;
+    background-color: black;
+    padding: 2px;
+    border: 2px solid yellow;
+    text-decoration: none;
+}
+/*Introduction*/
+#intro{
+    display: block;
+    width: 300px;
+    text-align: center;
+    color: darkgreen;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 6px 6px 3px #888888;
+    border: 3px solid blue;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+}
+/*Styles*/
+#wrapper{
+    background-color: azure;
+    color: forestgreen;
+    border: outset silver 5px;
+}
+#testc{
+    width: 200px;
+    text-align: center;   
+}
+#testc p{
+    background-color: white;
+    color: black;   
+}
+/*Contact*/
+#ebody{
+    height:80px;
+}
+#contact{
+    background-color: darkgreen;
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border: outset darkgreen 5px;
+}
+#thank{
+    color: white;
+    background-color: darkgreen;
+    padding: 10px;
+    font-weight: bold;
+    font-family: serif;
+    border: outset green 5px;
+}
+#emailform *{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#emailform p{
+    color: white;
+    font-size: 22px;
+}
+#disclaim{
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: outset red 10px;
+}
+#boonville{
+    background-color: blue;
+    color: white;
+}
+#cmc{
+    background-color: darkgreen;
+    color: white;
+}
+#linn{
+    background-color: orange;
+    color: white;
+    border: solid white 2px;
+}
+/*pagetitle ids*/
+#bhs{
+    background-color: blue;
+    color: white;
+}
+#cmu{
+    background-color: green;
+    color: white;
+}
+#motech{
+    background-color: orange;
+    color: white;
+}
+#haun{
+    background-color: lightgreen;
+    color: black;
+}
+#htmla{
+    background-color: gold;
+    color: black;
+}
+#php1{
+    background-color: orange;
+    color: black;
+}
+#cssa{
+    background-color: darkgreen;
+    color: white;
+}
+#jquer{
+    background-color: darkblue;
+    color: white;
+}
+#bootst{
+    background-color: magenta;
+    color: white;
+    border: solid white 1px;
+}
+#javscr{
+    background-color: brown;
+    color: white;
+}
+#portfolio{
+    background-color: white;
+    color: darkgreen;
+}
+#styles{
+    background-color: black;
+    color: lightgreen;
+}
+#contacts{
+    background-color: gray;
+    color: yellow;
+}
+#you{
+    background-color: yellow;
+    color: green;
+}
+#links{
+    background-color: red;
+    color: black;
+}
+#balld{
+    background-color: orange;
+    color: darkviolet;
+}
+#clickprompt{
+    text-align: center;
+    color: white;
+}
+#gamefooter{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    margin-top: 20px;
+}
+ #override{
+    color: white;
+} 
+#ghost{
+    display: inline-block;
+    width: 200px;
+    color: white;
+    border: 3px solid white;
+    text-align: center;
+}    
+</style>
+</head>
+
+<body>
+<div class="container text-center" id="error">
+  <svg height="100" width="100">
+    <polygon points="50,25 17,80 82,80" stroke-linejoin="round" style="fill:none;stroke:#ff8a00;stroke-width:8" />
+    <text x="42" y="74" fill="#ff8a00" font-family="sans-serif" font-weight="900" font-size="42px">!</text>
+  </svg>
+ <div class="row">
+    <div class="col-md-12">
+      <div class="main-icon text-warning"><span class="uxicon uxicon-alert"></span></div>
+        <h1 id="override">File not found (404 error)</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-md-push-3">
+      <p class="lead" id="override">If you think what you're looking for should be here, please contact the site owner.</p>
+    </div>
+  </div>
+</div>
+<a id="ghost" href="index.php">Home</a>
+</body>
+</html>
